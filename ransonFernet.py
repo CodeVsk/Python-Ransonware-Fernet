@@ -3,7 +3,7 @@ from cryptography.fernet import Fernet
 from cryptography.hazmat.primitives import hashes
 from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
 
-#Secutiry Validation
+#Security Validation
 passwd = 's3cr3t'
 passwd_input = input('Password: ')
 while passwd_input != passwd:
